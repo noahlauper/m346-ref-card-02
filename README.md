@@ -24,6 +24,8 @@ Dieses Projekt demonstriert die Containerisierung einer React-Anwendung mit Dock
 
 ### GitHub Actions Workflow
 ![image](https://github.com/user-attachments/assets/9ca18124-1b81-4d05-b354-8f265d0753d3)
+## Github Container Registry
+![image](https://github.com/user-attachments/assets/6af3a4c6-9585-4afd-a698-0ce8493efb1a)
 
 
 ### DockerHub Repository
