@@ -26,13 +26,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.MY_TOKEN }}
 
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v4
-        with:
-          context: .
-          file: ./Dockerfile
-          push: true
-          tags: ghcr.io/noahlauper/m346-ref-card-02-ci-cd-2:latest
+      - name: Build Docker image
+        run: docker build . -t ghcr.io/${{ github.actor }}/react-app:${{ github.sha }}
 
-      - name: Image digest
-        run: echo ${{ steps.docker.outputs.digest }}
+      - name: Push Docker image to GitHub Container Registry
+        run: docker push ghcr.io/${{ github.actor }}/react-app:${{ github.sha }}
