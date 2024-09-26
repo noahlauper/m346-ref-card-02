@@ -28,3 +28,6 @@ Dieses Projekt demonstriert die Containerisierung einer React-Anwendung mit Dock
 
 ### DockerHub Repository
 ![image](https://github.com/user-attachments/assets/fb6f2673-f131-4a7e-a7dd-09f97381d19f)
+![image](https://github.com/user-attachments/assets/92a61a14-a90b-4e35-a8ce-64ff4460ac39)
+
+
