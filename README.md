@@ -19,6 +19,10 @@ Dieses Projekt demonstriert die Containerisierung einer React-Anwendung mit Dock
 4. Testen und Verifizierung
    - Lokaler Build und Test des Docker-Images
    - Push zu DockerHub über GitHub Actions
+  
+### Umgebungsvariabeln für alle actions
+![image](https://github.com/user-attachments/assets/8bf38d3c-35ff-4c76-be91-d69535e2836b)
+
 
 ## Ergebnisse
 
