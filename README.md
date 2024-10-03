@@ -68,5 +68,10 @@ Dieses Projekt demonstriert die Containerisierung einer React-Anwendung mit Dock
 ### AWS Github Pipeline
 ![image](https://github.com/user-attachments/assets/8fca92e8-bf52-4d9b-9f69-7324d33e7edf)
 
+#### Build
+![image](https://github.com/user-attachments/assets/76aabf2c-cb78-4598-ac43-b3651ce098f5)
+
+#### Deploy
+![image](https://github.com/user-attachments/assets/691885dc-1acc-476c-9140-ae4c4fdfef21)
 
 
