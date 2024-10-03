@@ -58,4 +58,4 @@ jobs:
 
       - name: Update ECS service
         run: |
-          aws ecs update-service --cluster m346-refacard-02-noah-lauper --service m346-refacard-02-noah-lauper  --task-definition m346-refacard-02-noah-lauper
+          aws ecs update-service --cluster m346-refacard-02-noah-lauper --service m346-refacard-02-noah-lauper-service  --task-definition m346-refacard-02-noah-lauper
